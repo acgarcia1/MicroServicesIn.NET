@@ -10,6 +10,14 @@ namespace ShoppingCart
             builder.Services.AddRazorPages();
             builder.Services.AddControllers();
 
+            builder.Services.Scan(selector =>
+                selector
+                    .FromAssemblyOf<Program>()
+                    .AddClasses()
+                    .AsImplementedInterfaces());
+
+            builder.Services.AddHttpClient<IProductCatalogClient, ProductCatalogClient>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -29,7 +37,7 @@ namespace ShoppingCart
 
             app.UseEndpoints(endpoints =>
                 endpoints.MapControllers());
-          
+
             app.MapRazorPages();
 
             app.Run();
