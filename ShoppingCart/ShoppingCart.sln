@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart", "ShoppingCar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C1BBDF3-1829-4B9A-9B35-9C2AFA7D8FFF}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		Dockerfile = Dockerfile
+		shopping-cart.yaml = shopping-cart.yaml
 	EndProjectSection
 EndProject
 Global
