@@ -1,2 +1,18 @@
-POST http://localhost:5000//shoppingcart/15/items
+POST http://0.0.0.0:5000///shoppingcart/15/items
+Accept: application/json
+Content-Type: application/json
 
+[1,2]
+ 
+###
+
+GET http://localhost:5000///shoppingcart/15
+
+
+###
+
+POST http://localhost:5000/shoppingcart/15/items
+Accept: application/json
+Content-Type: application/json
+
+[1,2]
