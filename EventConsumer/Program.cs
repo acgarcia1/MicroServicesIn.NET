@@ -25,4 +25,5 @@ async Task ProcessEvents(Stream content)
 
 Task SaveStartIdToDataStore(long startId) => Task.CompletedTask;
 
-public record SpecialOfferEvent(long SequenceNumber, DateTimeOffset OccuredAt, string Name, object Content);
+public record SpecialOfferEvent(long SequenceNumber, DateTimeOffset OccuredAt, string Name, object Content); }
+}
