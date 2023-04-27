@@ -14,19 +14,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loyalty Program", "Loyalty Program", "{BB820A4A-E8A0-4FB6-8158-62579AAEB08C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyProgram", "..\LoyaltyProgram\LoyaltyProgram.csproj", "{C1712A88-29B4-40E1-8C5E-69572A757777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoyaltyProgram", "..\LoyaltyProgram\LoyaltyProgram.csproj", "{C1712A88-29B4-40E1-8C5E-69572A757777}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch. 5", "Ch. 5", "{730A2CA3-2816-40C0-B8FD-FDE27161DF25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api Gateway Mock", "Api Gateway Mock", "{AB60CF15-AE28-4D60-A968-AC97C141531E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGatewayMock", "..\ApiGatewayMock\ApiGatewayMock.csproj", "{51A91387-80BF-471A-B821-0EA5335C4EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGatewayMock", "..\ApiGatewayMock\ApiGatewayMock.csproj", "{51A91387-80BF-471A-B821-0EA5335C4EB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpecialOffers", "SpecialOffers", "{36116919-39AE-43ED-B5E7-91E250BC6657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialOffers", "..\SpecialOffers\SpecialOffers.csproj", "{F3D6ABFB-738A-4D17-8C8C-2FE12AE2CE6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecialOffers", "..\SpecialOffers\SpecialOffers.csproj", "{F3D6ABFB-738A-4D17-8C8C-2FE12AE2CE6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventConsumer", "..\EventConsumer\EventConsumer.csproj", "{107DFBAC-3F5F-4E9D-A3EF-0C75738D59EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventConsumer", "..\EventConsumer\EventConsumer.csproj", "{107DFBAC-3F5F-4E9D-A3EF-0C75738D59EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "..\ApiGateway\ApiGateway.csproj", "{335E19FA-867A-4EA5-9031-715249E53C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog", "..\ProductCatalog\ProductCatalog.csproj", "{B12A4674-E4B1-4CB6-BABB-2AA08A381A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +58,14 @@ Global
 		{107DFBAC-3F5F-4E9D-A3EF-0C75738D59EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{107DFBAC-3F5F-4E9D-A3EF-0C75738D59EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{107DFBAC-3F5F-4E9D-A3EF-0C75738D59EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335E19FA-867A-4EA5-9031-715249E53C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335E19FA-867A-4EA5-9031-715249E53C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335E19FA-867A-4EA5-9031-715249E53C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335E19FA-867A-4EA5-9031-715249E53C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12A4674-E4B1-4CB6-BABB-2AA08A381A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12A4674-E4B1-4CB6-BABB-2AA08A381A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12A4674-E4B1-4CB6-BABB-2AA08A381A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12A4674-E4B1-4CB6-BABB-2AA08A381A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
